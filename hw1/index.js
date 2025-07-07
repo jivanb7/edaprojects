@@ -9,13 +9,13 @@ const marginLeft = 70;
 
 const years = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
 
-// X SCALE
+// X-SCALE 
 const x = d3.scaleLinear()
     .domain([2019, 2025])
     .range([marginLeft, width - marginRight]);
     
 
-// Y SCALE
+// Y-SCALE
 const y = d3.scaleLinear()
     .domain([0, 10])
     .range([height - marginBottom, marginTop]);
