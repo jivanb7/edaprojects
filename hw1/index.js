@@ -20,7 +20,7 @@ const y = d3.scaleLinear()
     .domain([0, 10])
     .range([height - marginBottom, marginTop]);
 
-// SVG CONTAINER
+// SVG CONTAINER CREATION
 const svg = d3.create("svg")
     .attr("width", width)
     .attr("height", height);
